@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.table-sidemenu {
+  background-color: black;
+  color: white;
+}
+.sidemenu-area {
+  margin-top: 9rem;
+}
+.tablemain {
+  display: flex;
+}
+.revenue-display {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sidemenu-list {
+  background-color: black;
+  color: white;
+  padding: 8rem 2rem 20rem 2rem;
+}
+.customers-contained {
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.table-data-area {
+  width: 100%;
+}
+.profile-interface {
+  display: flex;
+}
+.profile-sidemenu {
+  background-color: black;
+  color: #dfdfdf;
+}
+.editprofile-data {
+  display: flex;
+  align-items: center;
+}
+.profile-person-data {
+  width: 100%;
+}
+.MuiSvgIcon-root {
+  margin-bottom: -4px;
+}
+.person-name {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: montserrat;
+  text-align: left;
+}
+.person-number {
+  font-family: montserrat;
+  text-align: left;
+}
+.person-data-box {
+  padding: 0.6rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.person-data-box:hover {
+  background-color: black;
+  color: white;
+}
+.person-data-list {
+  margin: 0.5rem auto;
+}
+.person-image {
+  width: 10%;
+  min-width: 18%;
+  margin-left: 3rem;
+}
+.person-data-box {
+  display: flex;
+  align-items: center;
+}
+.person-name-number {
+  margin-left: 1rem;
+}
+.form-data {
+  display: flex;
+  align-items: center;
+}
+.form-logo {
+  width: 60%;
+}
+.form-textarea-box {
+  display: flex;
+}
+.form-textarea {
+  margin: auto;
+  width: 100%;
+  display: block;
+}
+.form-button {
+  float: right;
+  margin-right: 1rem;
+  margin-top: 4rem;
+}
