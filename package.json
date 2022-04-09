@@ -42,11 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-        "node": "14.17.5"
-    },
-   "dependencies": {
-    "bower": "^1.8.0"
-   }
+  }
 }
